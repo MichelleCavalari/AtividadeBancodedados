@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F0F9E943-5274-EF95-1EFC-6A0DF81BDD4E" name="REGISTRAv2">
+<createdBy>miche</createdBy>
+<createdTime>2025-04-21 19:07:49 UTC</createdTime>
+<ownerDesignName>MODELO_AGRICULTURA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CULTURA_ID_CULTURA" id="37DFE5CD-96C8-7598-C2D6-3B8C3AC7C02C">
+<createdBy>miche</createdBy>
+<createdTime>2025-04-21 19:07:49 UTC</createdTime>
+<ownerDesignName>MODELO_AGRICULTURA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C371678C-43A9-3A2C-8BE2-29F74DA6853B" referredColumn="B94EDF59-9A8E-12DD-070F-CBBE832038FD"/>
+</associations>
+</Column>
+<Column name="SENSOR_ID_SENSOR" id="E028D7E7-2117-3733-0FE7-4E1DBA531196">
+<createdBy>miche</createdBy>
+<createdTime>2025-04-21 19:07:49 UTC</createdTime>
+<ownerDesignName>MODELO_AGRICULTURA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FE43EB41-F903-B387-50D9-D3F3C60C6662" referredColumn="64F49D4B-077E-5F60-132E-6BBF2A804E2E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9A219031-5E55-0818-CC4D-0D99B455A465" name="PK_REGISTRAv2">
+<createdBy>miche</createdBy>
+<createdTime>2025-04-21 19:07:49 UTC</createdTime>
+<ownerDesignName>MODELO_AGRICULTURA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37DFE5CD-96C8-7598-C2D6-3B8C3AC7C02C"/>
+<colUsage columnID="E028D7E7-2117-3733-0FE7-4E1DBA531196"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BFE20CC3-07AB-43EE-C95E-6F401403704F" name="FK_REGISTRAv2_CULTURA">
+<createdBy>miche</createdBy>
+<createdTime>2025-04-21 19:07:49 UTC</createdTime>
+<generatorID>1883C05C-016C-BCD7-0C79-C0653640CC15</generatorID>
+<ownerDesignName>MODELO_AGRICULTURA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37DFE5CD-96C8-7598-C2D6-3B8C3AC7C02C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B3BEE8E2-E41D-FED9-6CDE-833FA8E2FF7E" name="FK_REGISTRAv2_SENSOR">
+<createdBy>miche</createdBy>
+<createdTime>2025-04-21 19:07:49 UTC</createdTime>
+<generatorID>1883C05C-016C-BCD7-0C79-C0653640CC15</generatorID>
+<ownerDesignName>MODELO_AGRICULTURA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E028D7E7-2117-3733-0FE7-4E1DBA531196"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B97ECB4D-5157-B76D-E6A6-66A35B107D26" name="SENSOR">
+<createdBy>miche</createdBy>
+<createdTime>2025-04-21 19:07:49 UTC</createdTime>
+<generatorID>C720F4DC-C905-0C54-7429-405307D01C06</generatorID>
+<ownerDesignName>MODELO_AGRICULTURA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_SENSOR" id="64F49D4B-077E-5F60-132E-6BBF2A804E2E">
+<createdBy>miche</createdBy>
+<createdTime>2025-04-21 19:07:49 UTC</createdTime>
+<generatorID>317C59AF-F53C-1E60-C751-BDC7A2421E5B</generatorID>
+<ownerDesignName>MODELO_AGRICULTURA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_SENSOR" id="FBF5C92B-8BC5-0E6C-6097-5FDF01263965">
+<createdBy>miche</createdBy>
+<createdTime>2025-04-21 19:07:49 UTC</createdTime>
+<generatorID>A8367A70-DB6B-4190-A1B1-D9C47AA641C0</generatorID>
+<ownerDesignName>MODELO_AGRICULTURA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_CULTURA" id="E65B4896-46A5-ADE4-4BE5-E285F1CFAFC5">
+<createdBy>miche</createdBy>
+<createdTime>2025-04-21 19:07:49 UTC</createdTime>
+<generatorID>43E642DD-93F2-EBDD-1C04-8631B85F1658</generatorID>
+<ownerDesignName>MODELO_AGRICULTURA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="13E24D36-6C7D-E1D9-A3B8-DF0881DA8CB0" name="PK_SENSOR">
+<createdBy>miche</createdBy>
+<createdTime>2025-04-21 19:07:49 UTC</createdTime>
+<generatorID>ECA24E07-73FE-7A6F-168C-8CFA08420F5F</generatorID>
+<ownerDesignName>MODELO_AGRICULTURA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64F49D4B-077E-5F60-132E-6BBF2A804E2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

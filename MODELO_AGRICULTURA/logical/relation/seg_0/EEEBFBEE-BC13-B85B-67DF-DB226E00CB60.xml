@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="IDENTIFICA" directorySegmentName="seg_0" id="EEEBFBEE-BC13-B85B-67DF-DB226E00CB60">
+<createdBy>miche</createdBy>
+<createdTime>2025-04-21 18:59:48 UTC</createdTime>
+<ownerDesignName>MODELO_AGRICULTURA</ownerDesignName>
+<engineerTo>
+<item key="5E5DF92A-DF58-ABFB-E053-6DDC201B44B7" value="true"/>
+</engineerTo>
+<sourcePk>6770F51B-1DEE-9CD4-FF7D-D122EA5175C1</sourcePk>
+<targetPk>0EDA6DC2-D7F4-37F0-5AAA-6D8A3110E0D4</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D6AAFBA0-A74A-D1A0-C685-091CD0D6B1BE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DFAABD6C-5F98-E07A-9BC1-B6EDF38DA8C2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

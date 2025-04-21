@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="3295E0CE-8B2B-5DDA-9CA7-1A43C3B32669" mainViewID="3FAFF034-9E66-8F49-5CE0-E5E9CC8270BA">
+<createdBy>miche</createdBy>
+<createdTime>2025-04-21 18:16:21 UTC</createdTime>
+<ownerDesignName>MODELO_AGRICULTURA</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -1,0 +1,158 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DFAABD6C-5F98-E07A-9BC1-B6EDF38DA8C2" name="LEITURA">
+<createdBy>miche</createdBy>
+<createdTime>2025-04-21 18:40:59 UTC</createdTime>
+<ownerDesignName>MODELO_AGRICULTURA</ownerDesignName>
+<engineerTo>
+<item key="5E5DF92A-DF58-ABFB-E053-6DDC201B44B7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_SENSOR" id="2DDFF26E-BD89-6DED-F91A-1B274C53EDA0">
+<createdBy>miche</createdBy>
+<createdTime>2025-04-21 18:42:28 UTC</createdTime>
+<ownerDesignName>MODELO_AGRICULTURA</ownerDesignName>
+<engineerTo>
+<item key="5E5DF92A-DF58-ABFB-E053-6DDC201B44B7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_LEITURA" id="F805B81D-18F5-537D-F833-80D3B38B9165">
+<createdBy>miche</createdBy>
+<createdTime>2025-04-21 18:41:07 UTC</createdTime>
+<ownerDesignName>MODELO_AGRICULTURA</ownerDesignName>
+<engineerTo>
+<item key="5E5DF92A-DF58-ABFB-E053-6DDC201B44B7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATA_HORA" id="6744A517-BD1D-8FE0-3331-4A341F69E5DB">
+<createdBy>miche</createdBy>
+<createdTime>2025-04-21 18:41:41 UTC</createdTime>
+<ownerDesignName>MODELO_AGRICULTURA</ownerDesignName>
+<engineerTo>
+<item key="5E5DF92A-DF58-ABFB-E053-6DDC201B44B7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UMIDADE" id="A3AE17B0-F10E-DCCB-FF8F-97A4487B4BB0">
+<createdBy>miche</createdBy>
+<createdTime>2025-04-21 18:42:53 UTC</createdTime>
+<ownerDesignName>MODELO_AGRICULTURA</ownerDesignName>
+<engineerTo>
+<item key="5E5DF92A-DF58-ABFB-E053-6DDC201B44B7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PH" id="441A8DC1-A320-94E0-DF7D-06968F9F4BF4">
+<createdBy>miche</createdBy>
+<createdTime>2025-04-21 18:44:24 UTC</createdTime>
+<ownerDesignName>MODELO_AGRICULTURA</ownerDesignName>
+<engineerTo>
+<item key="5E5DF92A-DF58-ABFB-E053-6DDC201B44B7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,3,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FOSFORO" id="CA071AB5-F4DE-9FB1-A024-77F56C3EFF95">
+<createdBy>miche</createdBy>
+<createdTime>2025-04-21 18:44:54 UTC</createdTime>
+<ownerDesignName>MODELO_AGRICULTURA</ownerDesignName>
+<engineerTo>
+<item key="5E5DF92A-DF58-ABFB-E053-6DDC201B44B7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="POTASSIO" id="B4A33E0F-D82D-4784-F1A5-916BA9FB0AF7">
+<createdBy>miche</createdBy>
+<createdTime>2025-04-21 18:45:26 UTC</createdTime>
+<ownerDesignName>MODELO_AGRICULTURA</ownerDesignName>
+<engineerTo>
+<item key="5E5DF92A-DF58-ABFB-E053-6DDC201B44B7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_SENSOR1" id="6A17BD3C-E220-83B3-62D7-8106109E5837">
+<createdBy>miche</createdBy>
+<createdTime>2025-04-21 18:54:04 UTC</createdTime>
+<generatorID>56A4BA61-09D4-1A8A-BC7F-0E929BA61D80</generatorID>
+<ownerDesignName>MODELO_AGRICULTURA</ownerDesignName>
+<engineerTo>
+<item key="5E5DF92A-DF58-ABFB-E053-6DDC201B44B7" value="true"/>
+</engineerTo>
+<referedAttribute>317C59AF-F53C-1E60-C751-BDC7A2421E5B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_CULTURA" id="6F7F6735-1E46-8C30-0B53-24D86BB158EB">
+<createdBy>miche</createdBy>
+<createdTime>2025-04-21 19:00:59 UTC</createdTime>
+<generatorID>EEEBFBEE-BC13-B85B-67DF-DB226E00CB60</generatorID>
+<ownerDesignName>MODELO_AGRICULTURA</ownerDesignName>
+<engineerTo>
+<item key="5E5DF92A-DF58-ABFB-E053-6DDC201B44B7" value="true"/>
+</engineerTo>
+<referedAttribute>0A319E45-89AE-92D7-B8A7-484AFD4D7B06</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0EDA6DC2-D7F4-37F0-5AAA-6D8A3110E0D4" name="LEITURA PK">
+<createdBy>miche</createdBy>
+<createdTime>2025-04-21 18:42:07 UTC</createdTime>
+<ownerDesignName>MODELO_AGRICULTURA</ownerDesignName>
+<engineerTo>
+<item key="5E5DF92A-DF58-ABFB-E053-6DDC201B44B7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F805B81D-18F5-537D-F833-80D3B38B9165</attributeRef>
+<attributeRef>2DDFF26E-BD89-6DED-F91A-1B274C53EDA0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

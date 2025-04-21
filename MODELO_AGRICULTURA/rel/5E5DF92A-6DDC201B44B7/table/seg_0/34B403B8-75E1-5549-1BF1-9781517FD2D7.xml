@@ -1,0 +1,168 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="34B403B8-75E1-5549-1BF1-9781517FD2D7" name="LEITURA">
+<createdBy>miche</createdBy>
+<createdTime>2025-04-21 19:07:49 UTC</createdTime>
+<generatorID>DFAABD6C-5F98-E07A-9BC1-B6EDF38DA8C2</generatorID>
+<ownerDesignName>MODELO_AGRICULTURA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_SENSOR" id="615210FD-F001-92EA-BA0F-507E53D1CAE2">
+<createdBy>miche</createdBy>
+<createdTime>2025-04-21 19:07:49 UTC</createdTime>
+<generatorID>2DDFF26E-BD89-6DED-F91A-1B274C53EDA0</generatorID>
+<ownerDesignName>MODELO_AGRICULTURA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_LEITURA" id="4CA732BC-5D5A-199B-99D0-70762CA8BB76">
+<createdBy>miche</createdBy>
+<createdTime>2025-04-21 19:07:49 UTC</createdTime>
+<generatorID>F805B81D-18F5-537D-F833-80D3B38B9165</generatorID>
+<ownerDesignName>MODELO_AGRICULTURA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_HORA" id="0DAE4D97-C8CA-1BB0-7603-B1A71A565987">
+<createdBy>miche</createdBy>
+<createdTime>2025-04-21 19:07:49 UTC</createdTime>
+<generatorID>6744A517-BD1D-8FE0-3331-4A341F69E5DB</generatorID>
+<ownerDesignName>MODELO_AGRICULTURA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UMIDADE" id="E4021014-EBB4-0579-E8AA-FA52611B9243">
+<createdBy>miche</createdBy>
+<createdTime>2025-04-21 19:07:49 UTC</createdTime>
+<generatorID>A3AE17B0-F10E-DCCB-FF8F-97A4487B4BB0</generatorID>
+<ownerDesignName>MODELO_AGRICULTURA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PH" id="ED9CCAE6-CEB8-F6DB-9D7A-E0A73DC5E218">
+<createdBy>miche</createdBy>
+<createdTime>2025-04-21 19:07:49 UTC</createdTime>
+<generatorID>441A8DC1-A320-94E0-DF7D-06968F9F4BF4</generatorID>
+<ownerDesignName>MODELO_AGRICULTURA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,3,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FOSFORO" id="CFBBFCB6-DE5B-D5F1-A518-67180039CC58">
+<createdBy>miche</createdBy>
+<createdTime>2025-04-21 19:07:49 UTC</createdTime>
+<generatorID>CA071AB5-F4DE-9FB1-A024-77F56C3EFF95</generatorID>
+<ownerDesignName>MODELO_AGRICULTURA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POTASSIO" id="C18CF1EF-3E53-7C51-C1FF-ED537B420A5C">
+<createdBy>miche</createdBy>
+<createdTime>2025-04-21 19:07:49 UTC</createdTime>
+<generatorID>B4A33E0F-D82D-4784-F1A5-916BA9FB0AF7</generatorID>
+<ownerDesignName>MODELO_AGRICULTURA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SENSOR_ID_SENSOR" id="24E8C274-475D-B62E-EF05-EE08AEAF9FE8">
+<createdBy>miche</createdBy>
+<createdTime>2025-04-21 19:07:49 UTC</createdTime>
+<generatorID>6A17BD3C-E220-83B3-62D7-8106109E5837</generatorID>
+<ownerDesignName>MODELO_AGRICULTURA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D553FAA2-BFE2-27DE-808F-19A82C08F29A" referredColumn="64F49D4B-077E-5F60-132E-6BBF2A804E2E"/>
+</associations>
+</Column>
+<Column name="CULTURA_ID_CULTURA" id="E3A3AC25-C578-9373-C0FD-F7CC34A00AF9">
+<createdBy>miche</createdBy>
+<createdTime>2025-04-21 19:07:49 UTC</createdTime>
+<generatorID>6F7F6735-1E46-8C30-0B53-24D86BB158EB</generatorID>
+<ownerDesignName>MODELO_AGRICULTURA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="45E4225F-2A8B-C963-FF2C-B09DCBA52417" referredColumn="B94EDF59-9A8E-12DD-070F-CBBE832038FD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2153B147-73DE-8D04-1549-4D9593EDB495" name="PK_LEITURA">
+<createdBy>miche</createdBy>
+<createdTime>2025-04-21 19:07:49 UTC</createdTime>
+<generatorID>0EDA6DC2-D7F4-37F0-5AAA-6D8A3110E0D4</generatorID>
+<ownerDesignName>MODELO_AGRICULTURA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CA732BC-5D5A-199B-99D0-70762CA8BB76"/>
+<colUsage columnID="615210FD-F001-92EA-BA0F-507E53D1CAE2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2870C673-B7A7-308C-11DD-50B3476E1D1B" name="FK_LEITURA_CULTURA">
+<createdBy>miche</createdBy>
+<createdTime>2025-04-21 19:07:49 UTC</createdTime>
+<generatorID>EEEBFBEE-BC13-B85B-67DF-DB226E00CB60</generatorID>
+<ownerDesignName>MODELO_AGRICULTURA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3A3AC25-C578-9373-C0FD-F7CC34A00AF9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="301A2D80-2295-EB7E-D3BD-43373068179D" name="FK_LEITURA_SENSOR">
+<createdBy>miche</createdBy>
+<createdTime>2025-04-21 19:07:49 UTC</createdTime>
+<generatorID>56A4BA61-09D4-1A8A-BC7F-0E929BA61D80</generatorID>
+<ownerDesignName>MODELO_AGRICULTURA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24E8C274-475D-B62E-EF05-EE08AEAF9FE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

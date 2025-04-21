@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REGISTRA" directorySegmentName="seg_0" id="56A4BA61-09D4-1A8A-BC7F-0E929BA61D80">
+<createdBy>miche</createdBy>
+<createdTime>2025-04-21 18:54:04 UTC</createdTime>
+<ownerDesignName>MODELO_AGRICULTURA</ownerDesignName>
+<engineerTo>
+<item key="5E5DF92A-DF58-ABFB-E053-6DDC201B44B7" value="true"/>
+</engineerTo>
+<sourcePk>ECA24E07-73FE-7A6F-168C-8CFA08420F5F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C720F4DC-C905-0C54-7429-405307D01C06</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DFAABD6C-5F98-E07A-9BC1-B6EDF38DA8C2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

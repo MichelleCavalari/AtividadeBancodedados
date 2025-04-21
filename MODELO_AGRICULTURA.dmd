@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="MODELO_AGRICULTURA" id="01811488-C7B4-CB6D-F6D9-A3DC4AF69745" version="3.5">
+<createdBy>miche</createdBy>
+<createdTime>2025-04-21 18:16:21 UTC</createdTime>
+<ownerDesignName>MODELO_AGRICULTURA</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>01811488-C7B4-CB6D-F6D9-A3DC4AF69745</designId>
+</OSDM_Design>

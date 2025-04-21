@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BAFF5799-C577-239B-307D-03153CC7D9EB" name="CULTURA">
+<createdBy>miche</createdBy>
+<createdTime>2025-04-21 19:07:49 UTC</createdTime>
+<generatorID>D6AAFBA0-A74A-D1A0-C685-091CD0D6B1BE</generatorID>
+<ownerDesignName>MODELO_AGRICULTURA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CULTURA" id="B94EDF59-9A8E-12DD-070F-CBBE832038FD">
+<createdBy>miche</createdBy>
+<createdTime>2025-04-21 19:07:49 UTC</createdTime>
+<generatorID>0A319E45-89AE-92D7-B8A7-484AFD4D7B06</generatorID>
+<ownerDesignName>MODELO_AGRICULTURA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME_CULTURA" id="ABB3E948-405C-476C-0231-56CD2F5857FE">
+<createdBy>miche</createdBy>
+<createdTime>2025-04-21 19:07:49 UTC</createdTime>
+<generatorID>3F11028B-B17D-0CAB-9C02-0C4673AFE3DA</generatorID>
+<ownerDesignName>MODELO_AGRICULTURA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EPOCA_PLANTIO" id="D3FF9565-D1CB-EFD2-8B42-95DB1BBF6305">
+<createdBy>miche</createdBy>
+<createdTime>2025-04-21 19:07:49 UTC</createdTime>
+<generatorID>7F5666C4-F1BB-531C-598F-BB84049E6CE1</generatorID>
+<ownerDesignName>MODELO_AGRICULTURA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CCBB7C9E-D002-07AF-0F76-EF814E0421F3" name="PK_CULTURA">
+<createdBy>miche</createdBy>
+<createdTime>2025-04-21 19:07:49 UTC</createdTime>
+<generatorID>6770F51B-1DEE-9CD4-FF7D-D122EA5175C1</generatorID>
+<ownerDesignName>MODELO_AGRICULTURA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B94EDF59-9A8E-12DD-070F-CBBE832038FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
